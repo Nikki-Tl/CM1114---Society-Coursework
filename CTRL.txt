@@ -1,0 +1,26 @@
+/*
+    CSS NOTE
+*/
+
+
+#FFCDB2
+#FFB4A2
+#E5989B
+#B5838D
+#6D6875
+
+blue 
+#b2e4ff
+
+
+
+
+
+blue  - #087e8b
+red   - #ff5a5f
+peach - #FFB4A2
+black - #3c3c3c
+Lpurp - #d3cdd7
+Lblue - #ddf2eb
+#
+#
