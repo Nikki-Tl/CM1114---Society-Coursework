@@ -6,7 +6,7 @@ body {
     margin: 0%;
     background-color: #ddf2eb;
     /* will need to change image per device or on github */
-    background-image: url("images/Droop.png");
+    background-image: url("Droop.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: 20%;
