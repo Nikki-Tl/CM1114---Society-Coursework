@@ -36,14 +36,46 @@ h3 {
     img gallery
 */
 .gallery-img {
-    width:100%;
+    width: 100%;
 }
+
 #img-gallery {
     padding-top:10px;
 }
+
 #img-gallery .row {
     margin-bottom:10px;
 }
+
+.col-sm {
+    margin: 1%;
+}
+
+.col-sm img:hover {
+    opacity: 0.5;
+}
+
+
+
+
+/*
+    members
+*/
+
+.member-row {       
+    text-align: left;
+
+}
+
+.member-img {
+    padding: 5%;
+    width: 50%;
+    height: auto;
+    
+}
+
+
+
 
 
 
@@ -100,7 +132,6 @@ h1 {
 
 h2 {
     display: inline-block;
-    float: right;
     vertical-align: middle;
 
     margin: 0;
@@ -142,10 +173,12 @@ h2 {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
+    background-image: linear-gradient(#63abb3, #087e8b);
+    min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    padding: 20%;
+    border-radius: 10px;
 }
 
 .dropdown-content a {
@@ -155,18 +188,11 @@ h2 {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+    display: block;
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-
-
-
-
-
-
+}
 
 
 
@@ -207,7 +233,92 @@ a:active {
 
 
 
+/*
+    Form for Contact
+*/
+.contact-form {
+    position: relative;
+    display: block;
+    container-type: normal;
+    border-color: #087e8b;
+    border-width: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
 
+.form-inner {
+    padding-top: -10%;
+    text-align: left;
+    font-family: ABeeZee;
+    font-size: 150%;
+    
+}
+
+.form-title {
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 300%;
+    color: #087e8b;
+    padding-bottom: 2%;
+
+}
+
+.inputBox {
+    outline: none;
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    background: none;
+}
+
+.inputNumber {
+    display: inline;
+}
+
+/* .input-large {
+    litteraly nothing i do changes it, idk
+} */
+
+.contact-button {
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 100%;
+    color: #3c3c3c;
+    background-image: linear-gradient(#63abb3, #087e8b);
+    padding: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+}
+
+.small-text {
+    font-family: ABeeZee;
+    font-size: 100%;
+    font-weight: 20px;
+    color: #63abb3;
+    padding-bottom: 2%;
+    text-align: left;
+}
+
+.join-notification {
+    position: absolute;
+    z-index: 1;
+    padding: 5%;
+    margin-left: 40%;
+    font-family: ABeeZee;
+    font-size: 200%;
+    text-align: center;
+    color: #ff5a5f;
+
+    border: #ff5a5f;
+    border-style: solid;
+    border-width: 10px;
+}
 
 
 
@@ -245,4 +356,3 @@ a:active {
     margin-left: 15%;
     width: 70%;
 }
-
