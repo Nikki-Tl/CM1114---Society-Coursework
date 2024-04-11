@@ -39,7 +39,15 @@
                     <h1><a href="Members.html"> Members </a></h1>
                 </li>
                 <li class="nav-it">
-                    <h1><a href="b"> Menu </a></h1>
+                    <div class="dropdown">
+                        <h1>Menu</h1>
+                        <div class="dropdown-content">
+                            <a href="flavours.html">Flavours</a>    
+                            <a href="images.html">Images</a>
+                            <a href="events.html">Events</a>
+                            <a href="contact.html">Contact</a>
+                        </div>
+                      </div>
                 </li>
             </ul>
 
@@ -49,7 +57,7 @@
                     <a href="index.html">  Cream </a>
                 </h2>
             </div>  
-        </nav>
+        </nav> 
 
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -58,18 +66,37 @@
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
 
-        <!-- CHANGE -->
-        <form>
-            <fieldset>
-                <legend>Contact Us using the below form.</legend>
-                <label for="name">Name:</label>
-                <input type="text" name="name" value=""/> <br/>
-                … (rest of form here)…
+        <form class="contact-form">
+            <fieldset class="form-inner">
+                <legend class="form-title">Joining?</legend>
+                <div class="join-notification">
+                    DO NOT INPUT YOUR CARD DETAILS <br> FOR TESTING ONLY
+                </div>
+                <label>First Name:</label>
+                <input class="inputBox" type="text" name="fname" placeholder="First Name"/> <br/>
+                <label>Surname:</label>
+                <input class="inputBox" type="text" name="sname" placeholder="Surname"/> <br/>
+                <label>Student ID:</label>
+                <input class="inputBox" type="number" name="id" placeholder="0000000"/> <br/>
+                <label>Email:</label>
+                <input class="inputBox" type="text" name="email" placeholder="Email@gmail.com"/> <br/>
+                <br>
+                <label>Account Name:</label>
+                <input class="inputBox" type="text" name="fname" placeholder="Name"/> <br/>
+                <label>Sort Code:</label>
+                <input class="inputBox" type="text" name="sortcode" placeholder="00-00-00"/> <br/>
+                <label>Account Number:</label>
+                <input class="inputBox" type="number" name="accno" placeholder="0000000"/> <br/>
+                <br>
+                <button class="contact-button" type="submit" name="contact" onclick='alert("We reply in 5-365 buisness days, well be with you shortly")'>
+                    Submit
+                </button>
+
+                
+            
              </fieldset>
         </form>
 
-
-
         <br>
         <br>
         <br>
@@ -78,73 +105,6 @@
         <br>
         <br>
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        end of test
-
 
     </body>
 
