@@ -230,6 +230,93 @@ a:active {
 
 }
 
+/*
+    twitter
+*/
+.twitter {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* 
+    events table
+*/
+table {
+    margin: 5%;
+    width: 90%;
+    border-collapse: collapse;
+    border: #087e8b;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+td{
+    padding: 10px;
+    background-color: #d3cdd7;
+    border: #63abb3;
+    border-width: 2px;
+    border-style: solid;
+    font-family: ABeeZee;
+    font-size: 100%;
+}
+
+th {
+    padding: 10px;
+    background-color: #ddf2eb;
+    border: #63abb3;
+    border-width: 2px;
+    border-style: solid;
+    font-family: ABeeZee;
+    font-size: 100%;
+}
+
+td:hover {
+    opacity: 0.5;
+}
+.temp-margin{
+    margin-left: 5%;
+}
+
+/*
+    flavours
+*/
+.wrap-left {
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: 5%;
+    display: inline-block;
+
+    align-items: left;
+    font-family: ABeeZee;
+    font-size: 150%;
+    color: #087e8b;
+}
+.img-left {
+    width: 15%;
+    clear: left;
+    float: left;
+}
+
+.wrap-right {
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: 5%;
+    display: inline-block;
+
+    align-items: right;
+    font-family: ABeeZee;
+    font-size: 150%;
+    color: #087e8b;
+}
+.img-right {
+    width: 15%;
+    clear: right;
+    float: right;
+}
+
+
 
 
 
@@ -279,10 +366,6 @@ a:active {
 .inputNumber {
     display: inline;
 }
-
-/* .input-large {
-    litteraly nothing i do changes it, idk
-} */
 
 .contact-button {
     text-align: center;
