@@ -7,6 +7,7 @@ navbar text sizing - https://stackoverflow.com/questions/20304472/how-to-make-th
 gradients - https://www.w3schools.com/css/css3_gradients.asp
 twitter - https://twitter.com
 youtube - https://www.youtube.com/watch?v=erh2ngRZxs0
+        - https://www.youtube.com/watch?v=nxXutnIDo-Q
 carouser - https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works
 
 ALL IMAGES MADE WITH ADOBE FIREFLY - https://firefly.adobe.com/inspire/images
