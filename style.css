@@ -6,7 +6,7 @@ body {
     margin: 0%;
     background-color: #ddf2eb;
     /* will need to change image per device or on github */
-    background-image: url("Droop.png");
+    background-image: url("images/Droop.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: 20%;
@@ -30,7 +30,25 @@ h3 {
     color: #087e8b;
 }
 
+button {
+    font-family: itim;
+    text-align: center;
+    font-size: 100%;
+    color: #087e8b;
+    background: #d3cdd7;
+}
 
+
+
+/*
+    login
+*/
+.login {
+    z-index: 5;
+    margin: 2%;
+    padding-left: 74%;
+    position: absolute;
+}
 
 /*
     img gallery
@@ -62,6 +80,15 @@ h3 {
     members
 */
 
+.membersP {
+    padding: 1%;
+    margin: 0;
+    font-size: 200%;
+    font-family: itim;
+    text-align: center;
+    color: #d3cdd7;
+}
+
 .member-row {       
     text-align: left;
 
@@ -69,9 +96,61 @@ h3 {
 
 .member-img {
     padding: 5%;
-    width: 50%;
+    width: 30%;
     height: auto;
+    margin-left: 2.5%;
+    display: inline-block;
     
+}
+
+.member-hover {
+    width: 100%;
+    display: inline-block;
+    clear: left;
+}
+
+.member-hover img:hover {
+    display: inline-block;
+}
+
+.dropdownM {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdownM-content {
+    display: none;
+    position: absolute;
+    background-image: linear-gradient(#63abb3, #087e8b);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    border-radius: 10px;
+    width: 65%;
+    animation: slide-left 2s;
+}
+
+.dropdownM:hover .dropdownM-content {
+    display: inline-block;
+
+}
+
+
+
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 65%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 65%;
+  }
 }
 
 
@@ -236,6 +315,7 @@ a:active {
 .twitter {
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 2%;
 }
 
 /* 
@@ -278,6 +358,9 @@ td:hover {
 .temp-margin{
     margin-left: 5%;
 }
+
+
+
 
 /*
     flavours
