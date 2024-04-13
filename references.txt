@@ -13,3 +13,4 @@ carouser - https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works
 ALL IMAGES MADE WITH ADOBE FIREFLY - https://firefly.adobe.com/inspire/images
 ALL TEXT IS RANDOM GENERATED PARAGRAPHS ABOUT ICECREAM FROM CHATGPT
 
+attempted to get rid of all errors on https://validator.w3.org/nu/ hoever, not all were possible
