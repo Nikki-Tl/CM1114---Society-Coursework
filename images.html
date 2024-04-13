@@ -1,3 +1,13 @@
+<!--
+Threat model
+Threat source: external
+Threat agent: Human
+Threat intention: Intentional
+Threat motivation: Stealing login information
+Threat impact: Impersination of members
+Threat mitigation: Validate login information
+-->
+
 <html>
 
     <header>
@@ -11,6 +21,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="style.css" > 
+        <script type="text/javascript" src="jcode.js"></script>
 
         <meta name = "description" content = "Home Page">
         <meta name = "keywords" content = "n/a">
@@ -23,6 +34,11 @@
 
     <body>
 
+        <div class="login">
+            <input id="event_title" type="text" placeholder="username"/>
+            <input id="event_date" type="password" placeholder="password"/>
+            <button type="button" onclick="alert('You have been loggedin!')">Login</button>
+        </div>
 
         <h3>
             Images
@@ -52,7 +68,7 @@
             </ul>
 
             <div class="logo">
-                <img class="navImg" src="Ice-cube.png"/>
+                <img class="navImg" src="images/Ice-cube.png" alt="ice-cube logo"/>
                 <h2>
                     <a href="index.html">  Cream </a>
                 </h2>
@@ -68,42 +84,42 @@
             <div id="img-gallery" class="container">
                 <div class="row">
                     <div class="col-sm">
-                        <img src="img.png" class="gallery-img"/>
+                        <img src="images/img1.png" class="gallery-img" alt="three ice-cream flavours in cones; blue, yellow, red"/>
                     </div>
                     <div class="col-sm">
-                        <img src="img.png" class="gallery-img"/>
+                        <img src="images/img2.png" class="gallery-img" alt="three ice-cream flavours in one cone; blue, yellow, pink"/>
                     </div>
                     <div class="col-sm">
-                        <img src="img.png" class="gallery-img"/>
+                        <img src="images/img3.png" class="gallery-img" alt="three scoops of ice-cream in a bowl; green, yellow, pink"/>
                     </div>
                     <div class="col-sm">
-                        <img src="img.png" class="gallery-img"/>
+                        <img src="images/img4.png" class="gallery-img" alt="three scoops of ice-cream in a bowl; blue, yellow, purpule"/>
                     </div>
                     <div class="col-sm">
-                        <img src="img.png" class="gallery-img"/>
+                        <img src="images/img5.png" class="gallery-img" alt="three scoops of ice-cream in a bowl; blue, yellow, pink"/>
                     </div>
                     <div class="col-sm">
-                        <img src="img.png" class="gallery-img"/>
+                        <img src="images/img6.png" class="gallery-img" alt="woman eating ice-cream with a spoon"/>
                      </div>
                 </div>
                 <div class="row">
                     <div class="col-sm">
-                        <img src="img.png" class="gallery-img"/>
+                        <img src="images/img7.png" class="gallery-img" alt="vanila ice-cream in a bowl getting glazed with honey"/>
                     </div>
                     <div class="col-sm">
-                        <img src="img.png" class="gallery-img"/>
+                        <img src="images/img8.png" class="gallery-img" alt="woman eating ice-cream with a spoon"/>
                     </div>
                     <div class="col-sm">
-                        <img src="img.png" class="gallery-img"/>
+                        <img src="images/img9.png" class="gallery-img" alt="man eating ice-cream with a spoon"/>
                     </div>
                     <div class="col-sm">
-                        <img src="img.png" class="gallery-img"/>
+                        <img src="images/img10.png" class="gallery-img" alt="woman eating ice-cream with a spoon with sunglasses"/>
                     </div>
                     <div class="col-sm">
-                        <img src="img.png" class="gallery-img"/>
+                        <img src="images/img11.png" class="gallery-img" alt="three scoops of ice-cream in a bowl; brown, white, white"/>
                     </div>
                     <div class="col-sm">
-                        <img src="img.png" class="gallery-img"/>
+                        <img src="images/img12.png" class="gallery-img" alt="two piles of ice-cream in a bowl; brown, white"/>
                      </div>
                 </div>
             </div>
