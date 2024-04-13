@@ -1,0 +1,12 @@
+All links and references in the creation of this website:
+
+general inspiration - https://phyll.com
+Scroll bar - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_scrollbar 
+navbar - https://www.w3schools.com/css/css_navbar_horizontal.asp
+navbar text sizing - https://stackoverflow.com/questions/20304472/how-to-make-the-font-size-smaller-when-i-resize-the-browser 
+gradients - https://www.w3schools.com/css/css3_gradients.asp
+twitter - https://twitter.com
+
+ALL IMAGES MADE WITH ADOBE FIREFLY - https://firefly.adobe.com/inspire/images
+
+
