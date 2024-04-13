@@ -38,6 +38,10 @@ button {
     background: #d3cdd7;
 }
 
+.center {
+    text-align: center;
+}
+
 
 
 /*
@@ -49,6 +53,18 @@ button {
     padding-left: 74%;
     position: absolute;
 }
+
+
+/*
+    carousel
+*/
+.carousel-control-prev {
+    margin-left: 10%;
+}
+.carousel-control-next {
+    margin-right: 10%;
+}
+
 
 /*
     img gallery
