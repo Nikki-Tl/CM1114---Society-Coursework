@@ -389,13 +389,14 @@ td:hover {
 
     align-items: left;
     font-family: itim;
-    font-size: 175%;
+    font-size: 250%;
     color: #087e8b;
 }
 .img-left {
     width: 15%;
     clear: left;
     float: left;
+    margin: 1%;
 }
 
 .wrap-right {
@@ -406,13 +407,14 @@ td:hover {
 
     align-items: right;
     font-family: itim;
-    font-size: 175%;
+    font-size: 250%;
     color: #087e8b;
 }
 .img-right {
     width: 15%;
     clear: right;
     float: right;
+    margin: 1%;
 }
 
 
