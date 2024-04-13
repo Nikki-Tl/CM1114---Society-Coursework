@@ -1,3 +1,13 @@
+<!--
+Threat model
+Threat source: external
+Threat agent: Human
+Threat intention: Intentional
+Threat motivation: Stealing login information
+Threat impact: Impersination of members
+Threat mitigation: Validate login information
+-->
+
 <html>
 
     <header>
@@ -24,9 +34,14 @@
 
     <body>
 
+        <div class="login">
+            <input id="event_title" type="text" placeholder="username"/>
+            <input id="event_date" type="password" placeholder="password"/>
+            <button type="button" onclick="alert('You have been loggedin!')">Login</button>
+        </div>
 
         <h3>
-            Welcome to the Ice Cream Society
+            Events
         </h3>
 
         
@@ -52,7 +67,7 @@
             </ul>
 
             <div class="logo">
-                <img class="navImg" src="Ice-cube.png"/>
+                <img class="navImg" src="images/Ice-cube.png" alt="ice-cube logo"/>
                 <h2>
                     <a href="index.html">  Cream </a>
                 </h2>
@@ -148,16 +163,11 @@
             <input id="event_date" type="date"/>
             
             <button onclick="submit_event()"> 
-                test
+                submit event
             </button>
             
         </form>
 
-
-            
-
-
-
         <br>
         <br>
         <br>
@@ -166,79 +176,6 @@
         <br>
         <br>
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        end of test
-
-
-
-
-
-
-
 
     </body>
 
